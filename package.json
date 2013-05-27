@@ -1,0 +1,29 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express"        : "*"
+    , "connect-assets" : "2.1.5"
+    , "hogan-express"  : "*"
+    , "mysql"          : "*"
+    , "sequelize"      : "*"
+    , "stylus"         : ">= 0.19.7"
+    , "nib"            : "0.3.1"
+    , "underscore"     : ""
+    , "winston"        : ""
+    , "sequelize"      : ""
+  },
+  "devDependencies" : {
+      "mocha"       : "*"
+    , "should"      : "*"
+    , "sinon"       : "*"
+    , "zombie"      : "*"
+    , "cucumber"    : "*"
+    , "html5"       : "*"
+    , "supertest"   : "*"
+  },
+  "scripts": {
+    "test":"mocha"
+  }
+}

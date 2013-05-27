@@ -1,0 +1,20 @@
+ {
+     "development": {
+         "username": "root",
+         "password": "root",
+         "database": "node-template_dev",
+         "host": "127.0.0.1"
+     },
+     "test": {
+         "username": "root",
+         "password": "root",
+         "database": "node-template_test",
+         "host": "127.0.0.1"
+     },
+     "production": {
+         "username": "root",
+         "password": "root",
+         "database": "node-template_prod",
+         "host": "127.0.0.1"
+     }
+ }
